@@ -139,6 +139,10 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
+    .scroll-expansion-hero {
+        height: 100vh;
+    }
+
     .hero-title-first,
     .hero-title-rest {
         font-size: 2rem;

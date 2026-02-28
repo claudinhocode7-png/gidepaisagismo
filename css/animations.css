@@ -176,7 +176,7 @@ img[loading="lazy"].loaded {
 
 /* Counter Animation */
 .stat-number {
-    transition: all 0.5s ease-in-out;
+    transition: none;
 }
 
 /* Parallax Effect */

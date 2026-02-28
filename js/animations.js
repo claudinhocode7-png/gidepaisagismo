@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeAOS() {
     if (typeof AOS !== 'undefined') {
         AOS.init({
-            duration: 800,
-            easing: 'ease-in-out',
+            duration: 1000,
+            easing: 'ease-out',
             once: true,
             offset: 100,
             delay: 0,

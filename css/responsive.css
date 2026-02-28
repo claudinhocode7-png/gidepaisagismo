@@ -36,14 +36,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Calculadora */
-    .calculadora-wrapper {
-        gap: var(--spacing-md);
-    }
-
-    .valor-range {
-        font-size: 2rem;
-    }
 }
 
 /* Mobile (< 768px) */
@@ -129,6 +121,16 @@
         padding-right: 0;
     }
 
+    /* Oculta imagem dentro do grid; exibe bloco externo */
+    .sobre-grid > .sobre-image {
+        display: none;
+    }
+
+    .sobre-image-mobile {
+        display: block;
+        padding: var(--spacing-md) 0;
+    }
+
     .sobre-stats {
         grid-template-columns: 1fr;
         gap: var(--spacing-sm);
@@ -138,13 +140,38 @@
         font-size: 2.5rem;
     }
 
-    /* Serviços */
+    /* Serviços — grade 2 colunas compacta */
     .servicos-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
     }
 
     .service-card {
-        padding: var(--spacing-md);
+        padding: 1rem 0.5rem;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .service-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .service-title {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+
+    .service-description,
+    .service-link {
+        display: none;
     }
 
     /* Portfolio */
@@ -158,8 +185,8 @@
     }
 
     .portfolio-grid {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-sm);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
     }
 
     /* Depoimentos */
@@ -178,27 +205,6 @@
     .swiper-button-prev,
     .swiper-button-next {
         display: none;
-    }
-
-    /* Calculadora */
-    .calculadora-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .calculadora-form {
-        padding: var(--spacing-md);
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .valor-range {
-        font-size: 1.75rem;
-    }
-
-    .resultado-card {
-        padding: var(--spacing-md);
     }
 
     /* Instagram */
@@ -365,11 +371,6 @@
     .depoimento-author img {
         width: 50px;
         height: 50px;
-    }
-
-    /* Calculadora */
-    .valor-range {
-        font-size: 1.5rem;
     }
 
     /* Info Items */
@@ -586,7 +587,7 @@
     }
 
     .contato-wrapper {
-        gap: var(--spacing-xl);
+        gap: var(--spacing-md);
     }
 }
 

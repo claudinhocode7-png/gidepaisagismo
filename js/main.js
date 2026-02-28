@@ -95,6 +95,10 @@ function initializeNavigation() {
             if (targetElement) {
                 e.preventDefault();
 
+                if (window.scrollExpansionHero) {
+                    window.scrollExpansionHero.allowNavigation();
+                }
+
                 const offsetTop = targetElement.offsetTop - 80;
 
                 window.scrollTo({
@@ -202,19 +206,23 @@ function initializePortfolio() {
 /* ===================================
    Counter Animation
    =================================== */
-function animateCounter(element, target, duration = 2000) {
-    let start = 0;
-    const increment = target / (duration / 16);
+function animateCounter(element, target, duration = 3000) {
+    const startTime = performance.now();
 
-    const timer = setInterval(() => {
-        start += increment;
-        if (start >= target) {
-            element.textContent = target;
-            clearInterval(timer);
-        } else {
-            element.textContent = Math.floor(start);
+    function easeOutQuad(t) {
+        return 1 - (1 - t) * (1 - t);
+    }
+
+    function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        element.textContent = Math.round(easeOutQuad(progress) * target);
+        if (progress < 1) {
+            requestAnimationFrame(update);
         }
-    }, 16);
+    }
+
+    requestAnimationFrame(update);
 }
 
 // Initialize counters when in viewport
@@ -224,16 +232,21 @@ let countersAnimated = false;
 window.addEventListener('scroll', function() {
     if (countersAnimated) return;
 
-    statNumbers.forEach(stat => {
+    const anyVisible = Array.from(statNumbers).some(stat => {
         const rect = stat.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
-
-        if (isVisible) {
-            const target = parseInt(stat.getAttribute('data-count'));
-            animateCounter(stat, target);
-            countersAnimated = true;
-        }
+        return rect.top < window.innerHeight && rect.bottom >= 0;
     });
+
+    if (anyVisible) {
+        countersAnimated = true;
+        // Delay para deixar a animação AOS fade-right (1100ms) terminar antes de contar
+        setTimeout(() => {
+            statNumbers.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-count'));
+                animateCounter(stat, target);
+            });
+        }, 1200);
+    }
 });
 
 /* ===================================

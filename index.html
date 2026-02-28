@@ -40,9 +40,6 @@
     <!-- GLightbox CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-    <!-- noUiSlider CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/scroll-expansion.css">
@@ -105,8 +102,7 @@
                     <li><a href="#servicos" class="nav-link">Serviços</a></li>
                     <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
                     <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
-                    <li><a href="#calculadora" class="nav-link">Orçamento</a></li>
-                    <li><a href="#contato" class="nav-link btn-nav-contact">Contato</a></li>
+                    <li><a href="#contato" class="nav-link btn-nav-contact" aria-label="Contato"><i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -122,7 +118,7 @@
         <section id="sobre" class="section-sobre">
             <div class="container">
                 <div class="sobre-grid">
-                    <div class="sobre-content" data-aos="fade-right">
+                    <div class="sobre-content">
                         <h2 class="section-title">Sobre a GIDI Paisagismo</h2>
                         <p class="sobre-text">
                             Com anos de experiência no mercado, a GIDI Paisagismo se dedica a criar espaços verdes únicos
@@ -132,6 +128,12 @@
                             Nossa equipe de profissionais qualificados trabalha com paixão e comprometimento para
                             entregar projetos que harmonizam beleza estética com sustentabilidade ambiental.
                         </p>
+                        <!-- Foto equipe — visível apenas em mobile, antes das estatísticas -->
+                        <div class="sobre-image-mobile">
+                            <div class="sobre-image">
+                                <img src="plantasgidi.jpeg" alt="GIDI Paisagismo" loading="lazy">
+                            </div>
+                        </div>
                         <div class="sobre-stats">
                             <div class="stat-item">
                                 <span class="stat-number" data-count="500">0</span>
@@ -147,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sobre-image" data-aos="fade-left">
+                    <div class="sobre-image" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200" data-aos-easing="ease-out">
                         <img src="images/about.jpg" alt="Equipe GIDI Paisagismo trabalhando em projeto" loading="lazy">
                     </div>
                 </div>
@@ -400,84 +402,6 @@
             </div>
         </section>
 
-        <!-- Calculadora de Orçamento -->
-        <section id="calculadora" class="section-calculadora">
-            <div class="container">
-                <div class="section-header" data-aos="fade-up">
-                    <h2 class="section-title">Calculadora de Orçamento</h2>
-                    <p class="section-subtitle">Obtenha uma estimativa rápida para seu projeto</p>
-                </div>
-
-                <div class="calculadora-wrapper" data-aos="fade-up" data-aos-delay="200">
-                    <div class="calculadora-form">
-                        <div class="form-group">
-                            <label for="tipo-servico">Tipo de Serviço</label>
-                            <select id="tipo-servico" class="form-control">
-                                <option value="">Selecione um serviço</option>
-                                <option value="jardim" data-price="150">Projeto de Jardim</option>
-                                <option value="manutencao" data-price="80">Manutenção Paisagística</option>
-                                <option value="irrigacao" data-price="200">Irrigação Automatizada</option>
-                                <option value="vertical" data-price="300">Jardim Vertical</option>
-                                <option value="telhado" data-price="350">Telhado Verde</option>
-                                <option value="consultoria" data-price="120">Consultoria Ambiental</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="area-projeto">Área do Projeto (m²)</label>
-                            <div class="input-with-unit">
-                                <input type="number" id="area-projeto" class="form-control" min="1" value="50">
-                                <span class="unit">m²</span>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="complexidade-slider">Nível de Complexidade</label>
-                            <div id="complexidade-slider" class="complexity-slider"></div>
-                            <div class="slider-labels">
-                                <span>Básico</span>
-                                <span>Médio</span>
-                                <span>Avançado</span>
-                            </div>
-                        </div>
-
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="irrigacao-auto">
-                                <span>Incluir Irrigação Automatizada (+R$ 2.000)</span>
-                            </label>
-                        </div>
-
-                        <div class="form-group checkbox-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="manutencao-mensal">
-                                <span>Manutenção Mensal (+R$ 500/mês)</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <div class="calculadora-resultado">
-                        <div class="resultado-card">
-                            <h3>Estimativa de Investimento</h3>
-                            <div class="resultado-valor">
-                                <span class="valor-label">Faixa de Preço:</span>
-                                <span class="valor-range" id="valor-estimado">R$ 0 - R$ 0</span>
-                            </div>
-                            <div class="resultado-detalhes" id="resultado-detalhes">
-                                <p class="detalhes-item"><i class="fas fa-check"></i> Serviço: <span id="servico-selecionado">-</span></p>
-                                <p class="detalhes-item"><i class="fas fa-check"></i> Área: <span id="area-selecionada">-</span></p>
-                                <p class="detalhes-item"><i class="fas fa-check"></i> Complexidade: <span id="complexidade-selecionada">-</span></p>
-                            </div>
-                            <div class="resultado-disclaimer">
-                                <i class="fas fa-info-circle"></i>
-                                <p>Este é um orçamento aproximado. Para um orçamento detalhado e personalizado, entre em contato conosco.</p>
-                            </div>
-                            <a href="#contato" class="btn-primary">Solicitar Orçamento Detalhado</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Galeria Instagram -->
         <section id="instagram" class="section-instagram">
@@ -666,6 +590,7 @@
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
+
                     </div>
 
                     <div class="contato-form-wrapper" data-aos="fade-left">
@@ -676,18 +601,16 @@
                                 <span class="error-message"></span>
                             </div>
 
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label for="email">Email *</label>
-                                    <input type="email" id="email" name="email" class="form-control" required>
-                                    <span class="error-message"></span>
-                                </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                                <span class="error-message"></span>
+                            </div>
 
-                                <div class="form-group">
-                                    <label for="telefone">Telefone *</label>
-                                    <input type="tel" id="telefone" name="telefone" class="form-control" required>
-                                    <span class="error-message"></span>
-                                </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone *</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control" required>
+                                <span class="error-message"></span>
                             </div>
 
                             <div class="form-group">
@@ -724,11 +647,21 @@
                     </div>
                 </div>
 
+                <div class="contato-diferenciais" data-aos="fade-up">
+                    <h4>Por que nos escolher?</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Projetos 100% personalizados</li>
+                        <li><i class="fas fa-check-circle"></i> Mais de 10 anos de experiência</li>
+                        <li><i class="fas fa-check-circle"></i> Equipe técnica especializada</li>
+                        <li><i class="fas fa-check-circle"></i> Acompanhamento do início ao fim</li>
+                    </ul>
+                </div>
+
                 <div class="contato-map" data-aos="fade-up" data-aos-delay="200">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975!2d-46.6577!3d-23.5475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMyJzUxLjAiUyA0NsKwMzknMjcuNyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
                         width="100%"
-                        height="400"
+                        height="300"
                         style="border:0;"
                         allowfullscreen=""
                         loading="lazy"
@@ -818,11 +751,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
-
     <script src="js/main.js"></script>
     <script src="js/animations.js"></script>
-    <script src="js/calculator.js"></script>
     <script src="js/instagram.js"></script>
     <script src="js/form.js"></script>
     <script src="js/scroll-expansion-hero.js"></script>
