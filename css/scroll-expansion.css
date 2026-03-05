@@ -140,7 +140,15 @@
 /* Responsivo */
 @media (max-width: 768px) {
     .scroll-expansion-hero {
-        height: 100vh;
+        height: 100svh;
+    }
+
+    .hero-title-wrapper {
+        gap: 0.5rem;
+    }
+
+    .hero-text-container {
+        padding: 0 1.25rem;
     }
 
     .hero-title-first,
@@ -150,5 +158,19 @@
 
     .hero-subtitle {
         font-size: 1rem;
+    }
+
+    .hero-scroll-indicator {
+        bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title-wrapper {
+        gap: 0.35rem;
+    }
+
+    .hero-text-container {
+        padding: 0 1rem;
     }
 }

@@ -20,6 +20,11 @@ function initializeNavigation() {
     const navLinks = document.querySelectorAll('.nav-link');
     let lastScroll = 0;
 
+    // Força repaint do hamburger no mobile (fix iOS Safari / mobile render bug)
+    if (mobileToggle && window.innerWidth <= 1024) {
+        void mobileToggle.offsetHeight; // Lê offsetHeight para forçar reflow
+    }
+
     // Sticky navbar on scroll
     window.addEventListener('scroll', function() {
         const currentScroll = window.pageYOffset;

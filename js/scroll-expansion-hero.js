@@ -186,11 +186,13 @@ class ScrollExpansionHero {
     handleTouchStart(e) {
         if (!this.heroVisible) return;
         this.touchStartY = e.touches[0].clientY;
+        this.touchStartTarget = e.target;
     }
 
     handleTouchMove(e) {
         if (!this.heroVisible) return;
         if (!this.touchStartY) return;
+        if (this.touchStartTarget && this.touchStartTarget.closest('.navbar')) return;
 
         const touchY = e.touches[0].clientY;
         const deltaY = this.touchStartY - touchY;
