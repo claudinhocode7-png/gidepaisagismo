@@ -86,7 +86,7 @@ wp-content/uploads/
 *.rar
 
 # Large Media Files
-*.mp4
+# *.mp4  — removido: vídeos do hero/eventos precisam ser deployados no Vercel
 *.mov
 *.avi
 *.mkv
