@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Scroll Expansion Hero
+   GIDE Paisagismo - Scroll Expansion Hero
    Adaptado de React para Vanilla JS
    =================================== */
 
@@ -11,7 +11,7 @@ class ScrollExpansionHero {
             bgImageSrc: options.bgImageSrc || 'images/hero-bg.jpg',
             bgVideoSrc: options.bgVideoSrc || '',
             posterSrc: options.posterSrc || '',
-            title: options.title || 'GIDI Paisagismo',
+            title: options.title || 'GIDE Paisagismo',
             subtitle: options.subtitle || 'Transforme Seus Espaços Verdes',
             scrollToExpand: options.scrollToExpand || 'Role para expandir',
             textBlend: options.textBlend || false,
@@ -70,31 +70,6 @@ class ScrollExpansionHero {
             `;
         }
 
-        // Media container
-        const mediaContainer = document.createElement('div');
-        mediaContainer.className = 'hero-media-container';
-        mediaContainer.id = 'heroMediaContainer';
-
-        if (this.options.mediaType === 'video') {
-            mediaContainer.innerHTML = `
-                <video
-                    src="${this.options.mediaSrc}"
-                    ${this.options.posterSrc ? `poster="${this.options.posterSrc}"` : ''}
-                    autoplay
-                    muted
-                    loop
-                    playsinline
-                    class="hero-media-video">
-                </video>
-                <div class="hero-media-overlay"></div>
-            `;
-        } else {
-            mediaContainer.innerHTML = `
-                <img src="${this.options.mediaSrc}" alt="${this.options.title}" class="hero-media-image">
-                <div class="hero-media-overlay"></div>
-            `;
-        }
-
         // Text container
         const textContainer = document.createElement('div');
         textContainer.className = 'hero-text-container';
@@ -134,7 +109,6 @@ class ScrollExpansionHero {
 
         // Append all elements
         hero.appendChild(bgLayer);
-        hero.appendChild(mediaContainer);
         hero.appendChild(textContainer);
         hero.appendChild(scrollIndicator);
         hero.appendChild(contentSection);
@@ -143,7 +117,7 @@ class ScrollExpansionHero {
         this.elements = {
             hero,
             bgLayer,
-            mediaContainer,
+            mediaContainer: null,
             textContainer,
             scrollIndicator,
             contentSection,
@@ -347,14 +321,16 @@ class ScrollExpansionHero {
         const borderRadius = 16 * (1 - this.scrollProgress);
 
         const textTranslateX      = this.scrollProgress * 150;
-        const bgOpacity           = 1 - this.scrollProgress;
+        const bgOpacity           = 1;
         const mediaOverlayOpacity = 0.5 - this.scrollProgress * 0.3;
         const contentOpacity      = this.showContent ? 1 : 0;
 
         // Actualizar media container
-        this.elements.mediaContainer.style.width        = `${Math.min(mediaWidth,  vw * 0.98)}px`;
-        this.elements.mediaContainer.style.height       = `${Math.min(mediaHeight, vh * 0.92)}px`;
-        this.elements.mediaContainer.style.borderRadius = `${borderRadius}px`;
+        if (this.elements.mediaContainer) {
+            this.elements.mediaContainer.style.width        = `${Math.min(mediaWidth,  vw * 0.98)}px`;
+            this.elements.mediaContainer.style.height       = `${Math.min(mediaHeight, vh * 0.92)}px`;
+            this.elements.mediaContainer.style.borderRadius = `${borderRadius}px`;
+        }
 
         // Actualizar background
         this.elements.bgLayer.style.opacity = bgOpacity;
@@ -372,9 +348,11 @@ class ScrollExpansionHero {
         this.elements.scrollIndicator.style.transform = `translateY(${this.scrollProgress * 50}px)`;
 
         // Actualizar media overlay
-        const mediaOverlay = this.elements.mediaContainer.querySelector('.hero-media-overlay');
-        if (mediaOverlay) {
-            mediaOverlay.style.opacity = mediaOverlayOpacity;
+        if (this.elements.mediaContainer) {
+            const mediaOverlay = this.elements.mediaContainer.querySelector('.hero-media-overlay');
+            if (mediaOverlay) {
+                mediaOverlay.style.opacity = mediaOverlayOpacity;
+            }
         }
 
         // Actualizar content section
@@ -410,14 +388,14 @@ class ScrollExpansionHero {
 document.addEventListener('DOMContentLoaded', function() {
     // Verificar se existe o elemento hero
     if (document.getElementById('hero')) {
-        // Inicializar com as configurações do GIDI Paisagismo
+        // Inicializar com as configurações do GIDE Paisagismo
         window.scrollExpansionHero = new ScrollExpansionHero({
             mediaType: 'video',
-            mediaSrc: 'heroGidi.mp4',
-            bgImageSrc: 'plantasgidi.jpeg',
+            mediaSrc: 'heroGide.mp4',
+            bgImageSrc: 'plantasgide.jpeg',
             bgVideoSrc: 'images/Whisk_gdz4edn3qtywetnk1so2cjytudzkrtlhdto20cn.mp4',
-            posterSrc: 'plantasgidi.jpeg',
-            title: 'GIDI Paisagismo',
+            posterSrc: 'plantasgide.jpeg',
+            title: 'GIDE PAISAGISMO',
             subtitle: 'Transformando Espaços Verdes',
             scrollToExpand: 'Role para explorar',
             textBlend: true

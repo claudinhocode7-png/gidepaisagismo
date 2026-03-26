@@ -21,7 +21,7 @@ O servidor já está rodando! Abra esta URL no seu navegador.
 Para ver o scroll expansion funcionando perfeitamente, você precisa da imagem:
 
 **Arquivo:** `hero-bg.jpg`
-**Local:** `C:\projeto\ProjetoGIDI\images\hero-bg.jpg`
+**Local:** `C:\projeto\ProjetoGIDE\images\hero-bg.jpg`
 **Tamanho:** 1920 x 1080 pixels (mínimo)
 **Formato:** JPG
 
@@ -31,7 +31,7 @@ Para ver o scroll expansion funcionando perfeitamente, você precisa da imagem:
 1. Baixe uma imagem de paisagem/jardim da internet
 2. Redimensione para 1920x1080 (ou maior)
 3. Salve como `hero-bg.jpg`
-4. Coloque em `C:\projeto\ProjetoGIDI\images\`
+4. Coloque em `C:\projeto\ProjetoGIDE\images\`
 
 **Opção 2: Criar Placeholder com Gradiente**
 Você pode criar um arquivo temporário colorido:
@@ -59,7 +59,7 @@ http://localhost:8080
 #### Desktop (Mouse):
 1. **Estado Inicial:**
    - Você verá uma imagem pequena no centro
-   - Texto "GIDI" à esquerda, "Paisagismo" à direita
+   - Texto "GIDE" à esquerda, "Paisagismo" à direita
    - Background visível
    - Indicador de scroll animado embaixo
 
@@ -127,7 +127,7 @@ http://localhost:8080
 
 ### Problema: Hero aparece em branco
 **Causa:** Imagem `hero-bg.jpg` não encontrada
-**Solução:** Adicionar imagem em `C:\projeto\ProjetoGIDI\images\hero-bg.jpg`
+**Solução:** Adicionar imagem em `C:\projeto\ProjetoGIDE\images\hero-bg.jpg`
 
 ### Problema: Scroll não funciona
 **Causa:** Erro JavaScript ou conflito
@@ -229,7 +229,7 @@ Se tudo funcionou:
 ┌─────────────────────────────────────┐
 │                                     │
 │         ┌──────────┐                │
-│  GIDI   │  IMAGEM  │  Paisagismo   │
+│  GIDE   │  IMAGEM  │  Paisagismo   │
 │         └──────────┘                │
 │    Transformando Espaços Verdes     │
 │                                     │

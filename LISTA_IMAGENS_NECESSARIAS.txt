@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════════════
-  LISTA DE IMAGENS NECESSÁRIAS - GIDI PAISAGISMO
+  LISTA DE IMAGENS NECESSÁRIAS - GIDE PAISAGISMO
 ═══════════════════════════════════════════════════════════════════
 
 📋 CLIENTE DEVE FORNECER AS SEGUINTES IMAGENS:
@@ -192,7 +192,7 @@ Categoria: [ ] residencial [ ] comercial [ ] vertical [ ] telhado
 📁 ESTRUTURA DE PASTAS
 ═══════════════════════════════════════════════════════════════════
 
-ProjetoGIDI/
+ProjetoGIDE/
 └── images/
     ├── logo.png                    ← Logo da empresa
     ├── hero-bg.jpg                 ← Banner principal

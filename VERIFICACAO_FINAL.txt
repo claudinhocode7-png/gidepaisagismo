@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════════════════════
-  ✅ VERIFICAÇÃO FINAL DO PROJETO - GIDI PAISAGISMO
+  ✅ VERIFICAÇÃO FINAL DO PROJETO - GIDE PAISAGISMO
 ═══════════════════════════════════════════════════════════════════════════
 
 Data: 26 de Fevereiro de 2024
@@ -35,7 +35,7 @@ Arquivos de Configuração: 3 arquivos
 ✅ ESTRUTURA DE ARQUIVOS - VERIFICADA
 ═══════════════════════════════════════════════════════════════════════════
 
-ProjetoGIDI/
+ProjetoGIDE/
 ├── ✓ index.html
 ├── ✓ README.md
 ├── ✓ INSTRUCOES_CLIENTE.md
@@ -566,7 +566,7 @@ Arquivos Criados: 20 arquivos
 
 ═══════════════════════════════════════════════════════════════════════════
 
-🌿 GIDI Paisagismo - Transformando espaços verdes desde 2009
+🌿 GIDE Paisagismo - Transformando espaços verdes desde 2009
 
 Desenvolvido com ❤️ em Fevereiro de 2024
 Versão 1.0.0

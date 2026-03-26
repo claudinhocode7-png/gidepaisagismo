@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Animations JavaScript
+   GIDE Paisagismo - Animations JavaScript
    =================================== */
 
 // Initialize AOS (Animate On Scroll)
@@ -311,7 +311,7 @@ function throttleParallax(func, limit) {
 /* ===================================
    Export for use in other modules
    =================================== */
-window.GIDIAnimations = {
+window.GIDEAnimations = {
     typedTextEffect,
     animateValue,
     staggerAnimation,

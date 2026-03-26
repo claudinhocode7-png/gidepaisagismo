@@ -1,8 +1,8 @@
 ═══════════════════════════════════════════════════════════════════════════
-  ESTRUTURA COMPLETA DO PROJETO - GIDI PAISAGISMO
+  ESTRUTURA COMPLETA DO PROJETO - GIDE PAISAGISMO
 ═══════════════════════════════════════════════════════════════════════════
 
-ProjetoGIDI/
+ProjetoGIDE/
 │
 ├── 📄 index.html                          (Página principal - 970 linhas)
 │   ├── Head: Meta tags, SEO, Schema.org, Open Graph
@@ -306,7 +306,7 @@ Consulte:
 
 🎉 PROJETO COMPLETO E PRONTO PARA USO!
 
-Desenvolvido com ❤️ para GIDI Paisagismo
+Desenvolvido com ❤️ para GIDE Paisagismo
 Transformando espaços verdes desde 2009
 
 ═══════════════════════════════════════════════════════════════════════════

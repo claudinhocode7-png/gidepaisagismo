@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Main JavaScript
+   GIDE Paisagismo - Main JavaScript
    =================================== */
 
 /* ===================================
@@ -303,7 +303,7 @@ function formatPhone(input) {
 }
 
 // Export for use in other modules
-window.GIDIUtils = {
+window.GIDEUtils = {
     validateEmail,
     validatePhone,
     formatPhone
@@ -536,6 +536,6 @@ function initializeUrgencyBar() {
 /* ===================================
    Console Credits
    =================================== */
-console.log('%c🌿 GIDI Paisagismo', 'color: #2d5f3f; font-size: 24px; font-weight: bold;');
+console.log('%c🌿 GIDE Paisagismo', 'color: #2d5f3f; font-size: 24px; font-weight: bold;');
 console.log('%cWebsite desenvolvido com paixão e dedicação', 'color: #78b719; font-size: 14px;');
 console.log('%cTransformando espaços verdes desde 2009', 'color: #a67c52; font-size: 12px;');

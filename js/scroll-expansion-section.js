@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Scroll Expansion Section
+   GIDE Paisagismo - Scroll Expansion Section
    Seção genérica com comportamento de expansão por scroll
    (para seções no meio da página — não força scrollY=0)
    =================================== */
@@ -9,8 +9,8 @@ class ScrollExpansionSection {
         this.options = {
             sectionId: options.sectionId || 'eventos',
             mediaType: options.mediaType || 'video',
-            mediaSrc: options.mediaSrc || 'heroGidi.mp4',
-            bgImageSrc: options.bgImageSrc || 'plantasgidi.jpeg',
+            mediaSrc: options.mediaSrc || 'heroGide.mp4',
+            bgImageSrc: options.bgImageSrc || 'plantasgide.jpeg',
             bgVideoSrc: options.bgVideoSrc || '',
             posterSrc: options.posterSrc || '',
             title: options.title || 'Eventos',

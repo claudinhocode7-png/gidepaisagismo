@@ -1,7 +1,7 @@
 {
-  "name": "gidi-paisagismo",
+  "name": "gide-paisagismo",
   "version": "1.0.0",
-  "description": "Site profissional GIDI Paisagismo - Transformando espaços verdes",
+  "description": "Site profissional GIDE Paisagismo - Transformando espaços verdes",
   "main": "index.html",
   "scripts": {
     "dev": "npx http-server -p 8080 -c-1 & sleep 2 && cmd /c start chrome http://localhost:8080",
@@ -21,13 +21,13 @@
     "landscape",
     "gardening"
   ],
-  "author": "GIDI Paisagismo",
+  "author": "GIDE Paisagismo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gidipaisagismo/website"
+    "url": "https://github.com/gidepaisagismo/website"
   },
-  "homepage": "https://gidipaisagismo.com.br",
+  "homepage": "https://gidepaisagismo.com.br",
   "devDependencies": {},
   "dependencies": {}
 }

@@ -1,4 +1,4 @@
-# GIDI Paisagismo - Robots.txt
+# GIDE Paisagismo - Robots.txt
 
 # Allow all search engines
 User-agent: *
@@ -20,7 +20,7 @@ Allow: /images/
 # Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://gidipaisagismo.com.br/sitemap.xml
+Sitemap: https://gidepaisagismo.com.br/sitemap.xml
 
 # Specific bot rules (optional)
 

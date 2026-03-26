@@ -1,4 +1,4 @@
-# 📋 Instruções para o Cliente - GIDI Paisagismo
+# 📋 Instruções para o Cliente - GIDE Paisagismo
 
 Bem-vindo ao seu novo site! Este documento contém todas as instruções necessárias para finalizar e publicar o site.
 
@@ -86,7 +86,7 @@ Substituir por: Seus telefones reais
 Formato: `(11) 98765-4321`
 
 #### 📧 Emails
-Procurar por: `contato@gidipaisagismo.com.br`
+Procurar por: `contato@gidepaisagismo.com.br`
 Substituir por: Seu email real
 
 #### 🕐 Horário de Atendimento
@@ -95,10 +95,10 @@ Ajustar conforme seu horário
 
 #### 🌐 Redes Sociais
 Procurar por:
-- `https://facebook.com/gidipaisagismo`
-- `https://instagram.com/gidipaisagismo`
+- `https://facebook.com/gidepaisagismo`
+- `https://instagram.com/gidepaisagismo`
 - `https://wa.me/5511999999999`
-- `https://linkedin.com/company/gidipaisagismo`
+- `https://linkedin.com/company/gidepaisagismo`
 
 Substituir pelos seus links reais.
 
@@ -349,4 +349,4 @@ Ele foi desenvolvido com as melhores práticas de:
 ---
 
 **Última atualização:** Fevereiro 2024
-**Desenvolvido com** ❤️ **para GIDI Paisagismo**
+**Desenvolvido com** ❤️ **para GIDE Paisagismo**

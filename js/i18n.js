@@ -2,7 +2,7 @@
 
 const translations = {
   'pt-BR': {
-    'page.title': 'GIDI Paisagismo - Transforme Seus Espaços Verdes',
+    'page.title': 'GIDE Paisagismo - Transforme Seus Espaços Verdes',
     'skip_content': 'Ir para o conteúdo principal',
     'scroll_top_aria': 'Voltar ao topo',
     'whatsapp_float_aria': 'Fale conosco pelo WhatsApp',
@@ -58,8 +58,8 @@ const translations = {
     'process.step5.text': 'Planos de manutenção para seu jardim prosperar por anos',
 
     'about.eyebrow': 'Nossa História',
-    'about.title': 'Sobre a GIDI Paisagismo',
-    'about.p1': 'Com 15 anos de experiência em paisagismo, a GIDI transforma espaços ordinários em ambientes extraordinários — jardins residenciais, coberturas verdes e interiores vivos que elevam a qualidade de vida.',
+    'about.title': 'Sobre a GIDE Paisagismo',
+    'about.p1': 'Com 15 anos de experiência em paisagismo, a GIDE transforma espaços ordinários em ambientes extraordinários — jardins residenciais, coberturas verdes e interiores vivos que elevam a qualidade de vida.',
     'about.p2': 'Cada projeto começa com escuta ativa: entendemos o espaço, o clima local e o estilo de vida do cliente antes de qualquer traçado. O resultado é um jardim que funciona, cresce e encanta ao longo do tempo.',
 
     'blog.eyebrow': 'Inspire-se',
@@ -86,13 +86,13 @@ const translations = {
     'testimonials.eyebrow': 'Clientes',
     'testimonials.title': 'O Que Nossos Clientes Dizem',
     'testimonials.subtitle': 'Depoimentos de quem confia no nosso trabalho',
-    'testimonial.1.text': '"A GIDI transformou completamente nosso jardim! O resultado superou todas as expectativas. Profissionais competentes e atenciosos."',
+    'testimonial.1.text': '"A GIDE transformou completamente nosso jardim! O resultado superou todas as expectativas. Profissionais competentes e atenciosos."',
     'testimonial.2.text': '"Excelente trabalho! O jardim vertical ficou incrível e trouxe vida ao nosso escritório. Recomendo muito!"',
     'testimonial.3.text': '"Projeto executado com perfeição! A equipe é pontual, organizada e o resultado foi além do esperado. Nosso telhado verde é simplesmente maravilhoso."',
     'testimonial.4.text': '"O paisagismo da nossa fachada ficou incrível! Recebo elogios dos vizinhos todos os dias. Trabalho impecável do início ao fim."',
-    'testimonial.5.text': '"Contratamos a GIDI para o jardim do nosso evento e o resultado foi espetacular. Os convidados ficaram impressionados com a beleza do espaço."',
+    'testimonial.5.text': '"Contratamos a GIDE para o jardim do nosso evento e o resultado foi espetacular. Os convidados ficaram impressionados com a beleza do espaço."',
     'testimonial.6.text': '"Nosso restaurante ganhou uma área externa linda com plantas e iluminação especial. As avaliações dos clientes melhoraram muito desde a reforma."',
-    'testimonial.7.text': '"A horta vertical que a GIDI instalou no meu apartamento é um sonho! Colho temperos frescos todo dia. Projeto lindo e funcional."',
+    'testimonial.7.text': '"A horta vertical que a GIDE instalou no meu apartamento é um sonho! Colho temperos frescos todo dia. Projeto lindo e funcional."',
     'testimonial.8.text': '"Transformaram nosso terraço em um jardim de paraíso. Cada detalhe foi pensado com muito cuidado. Equipe altamente profissional!"',
     'testimonial.9.text': '"O projeto de paisagismo para nossa empresa elevou o ambiente de trabalho a outro nível. Funcionários mais felizes e produtivos. Vale cada centavo!"',
 
@@ -158,7 +158,7 @@ const translations = {
     'footer.link_vertical': 'Jardins Verticais',
     'footer.link_green_roof': 'Telhados Verdes',
     'footer.link_consulting': 'Consultoria Ambiental',
-    'footer.copyright': '© 2026 GIDI Paisagismo. Todos os direitos reservados.',
+    'footer.copyright': '© 2026 GIDE Paisagismo. Todos os direitos reservados.',
     'footer.dev': 'Desenvolvido com <svg class="icon" aria-hidden="true"><use href="icons/sprite.svg#icon-heart"></use></svg> para conectar você com a natureza',
 
     'subpage.eyebrow': 'Serviços',
@@ -167,7 +167,7 @@ const translations = {
     'subpage.request_quote': 'Solicitar Orçamento',
     'subpage.back_services': '← Voltar aos Serviços',
 
-    'page.garden.title': 'Projetos de Jardins — GIDI Paisagismo',
+    'page.garden.title': 'Projetos de Jardins — GIDE Paisagismo',
     'service.garden.what_is_text': 'Serviço de criação de jardins sob medida, com levantamento do espaço, seleção de espécies adequadas ao clima e solo, e entrega de projeto executivo com plantas e especificações.',
     'service.garden.includes.1': 'Levantamento e análise do terreno',
     'service.garden.includes.2': 'Projeto executivo em 2D/3D',
@@ -175,7 +175,7 @@ const translations = {
     'service.garden.includes.4': 'Implantação e acompanhamento',
     'service.garden.includes.5': 'Residencial, comercial e corporativo',
 
-    'page.maintenance.title': 'Manutenção Paisagística — GIDI Paisagismo',
+    'page.maintenance.title': 'Manutenção Paisagística — GIDE Paisagismo',
     'service.maintenance.what_is_text': 'Programa de visitas regulares para manter o jardim em perfeito estado, com podas, adubações, controle de pragas e replantios conforme necessário.',
     'service.maintenance.includes.1': 'Plano de manutenção personalizado',
     'service.maintenance.includes.2': 'Poda e aparação',
@@ -183,7 +183,7 @@ const translations = {
     'service.maintenance.includes.4': 'Controle fitossanitário',
     'service.maintenance.includes.5': 'Relatório de visita',
 
-    'page.irrigation.title': 'Irrigação Automatizada — GIDI Paisagismo',
+    'page.irrigation.title': 'Irrigação Automatizada — GIDE Paisagismo',
     'service.irrigation.what_is_text': 'Dimensionamento e instalação de sistemas de irrigação por gotejamento ou aspersão, controlados por temporizadores ou sensores de umidade, reduzindo desperdício de água.',
     'service.irrigation.includes.1': 'Projeto hidráulico do sistema',
     'service.irrigation.includes.2': 'Instalação de gotejadores e aspersores',
@@ -191,7 +191,7 @@ const translations = {
     'service.irrigation.includes.4': 'Sensores de chuva e umidade',
     'service.irrigation.includes.5': 'Treinamento de operação',
 
-    'page.vertical.title': 'Jardins Verticais — GIDI Paisagismo',
+    'page.vertical.title': 'Jardins Verticais — GIDE Paisagismo',
     'service.vertical.what_is_text': 'Criação de paredes e painéis vivos para ambientes internos ou externos, com estrutura modular e sistema de irrigação integrado.',
     'service.vertical.includes.1': 'Estrutura e suporte metálico ou PVC',
     'service.vertical.includes.2': 'Substrato e feltro agrícola',
@@ -199,7 +199,7 @@ const translations = {
     'service.vertical.includes.4': 'Irrigação integrada',
     'service.vertical.includes.5': 'Manutenção periódica',
 
-    'page.green_roof.title': 'Telhados Verdes — GIDI Paisagismo',
+    'page.green_roof.title': 'Telhados Verdes — GIDE Paisagismo',
     'service.green_roof.what_is_text': 'Implantação de cobertura vegetal extensiva ou intensiva sobre lajes e telhados, com camadas de impermeabilização, drenagem e substrato leve.',
     'service.green_roof.includes.1': 'Análise estrutural da cobertura',
     'service.green_roof.includes.2': 'Impermeabilização e drenagem',
@@ -207,7 +207,7 @@ const translations = {
     'service.green_roof.includes.4': 'Redução térmica e acústica',
     'service.green_roof.includes.5': 'Certificação ambiental',
 
-    'page.consulting.title': 'Consultoria Ambiental — GIDI Paisagismo',
+    'page.consulting.title': 'Consultoria Ambiental — GIDE Paisagismo',
     'service.consulting.what_is_text': 'Assessoria técnica para projetos paisagísticos sustentáveis, compensação ambiental, laudos de arborização e adequação à legislação municipal.',
     'service.consulting.includes.1': 'Diagnóstico ambiental do espaço',
     'service.consulting.includes.2': 'Inventário de espécies arbóreas',
@@ -217,7 +217,7 @@ const translations = {
 
     'sustentabilidade.eyebrow': 'Compromisso Verde',
     'sustentabilidade.title': 'Paisagismo com Propósito',
-    'sustentabilidade.subtitle': 'Cada projeto da GIDI é pensado para coexistir com o meio ambiente — usando recursos com eficiência, respeitando o bioma local e deixando o entorno mais vivo do que encontramos.',
+    'sustentabilidade.subtitle': 'Cada projeto da GIDE é pensado para coexistir com o meio ambiente — usando recursos com eficiência, respeitando o bioma local e deixando o entorno mais vivo do que encontramos.',
     'sustentabilidade.card1.title': 'Plantas Nativas',
     'sustentabilidade.card1.desc': 'Priorizamos espécies do bioma local em todos os projetos — menos consumo hídrico, suporte direto à fauna nativa e maior resiliência às variações climáticas da região.',
     'sustentabilidade.card2.title': 'Telhados e Paredes Verdes',
@@ -245,12 +245,12 @@ const translations = {
 
     'footer.address': 'Rua Exemplo, 123<br>Cidade/Estado',
     'footer.phone': '(XX) XXXXX-XXXX',
-    'footer.email': 'contato@gidipaisagismo.com.br',
+    'footer.email': 'contato@gidepaisagismo.com.br',
     'footer.hours': 'Seg-Sex: 08h-18h',
   },
 
   'en-US': {
-    'page.title': 'GIDI Landscaping - Transform Your Green Spaces',
+    'page.title': 'GIDE Landscaping - Transform Your Green Spaces',
     'skip_content': 'Skip to main content',
     'scroll_top_aria': 'Back to top',
     'whatsapp_float_aria': 'Contact us on WhatsApp',
@@ -306,8 +306,8 @@ const translations = {
     'process.step5.text': 'Maintenance plans to keep your garden thriving for years',
 
     'about.eyebrow': 'Our Story',
-    'about.title': 'About GIDI Landscaping',
-    'about.p1': 'With 15 years of landscaping experience, GIDI transforms ordinary spaces into extraordinary environments — residential gardens, green rooftops and living interiors that elevate quality of life.',
+    'about.title': 'About GIDE Landscaping',
+    'about.p1': 'With 15 years of landscaping experience, GIDE transforms ordinary spaces into extraordinary environments — residential gardens, green rooftops and living interiors that elevate quality of life.',
     'about.p2': "Every project starts with active listening: we understand the space, the local climate and the client's lifestyle before any design begins. The result is a garden that works, grows and delights over time.",
 
     'blog.eyebrow': 'Get Inspired',
@@ -334,13 +334,13 @@ const translations = {
     'testimonials.eyebrow': 'Clients',
     'testimonials.title': 'What Our Clients Say',
     'testimonials.subtitle': 'Testimonials from those who trust our work',
-    'testimonial.1.text': '"GIDI completely transformed our garden! The result exceeded all expectations. Skilled and attentive professionals."',
+    'testimonial.1.text': '"GIDE completely transformed our garden! The result exceeded all expectations. Skilled and attentive professionals."',
     'testimonial.2.text': '"Excellent work! The vertical garden turned out amazing and brought life to our office. Highly recommended!"',
     'testimonial.3.text': '"Project executed to perfection! The team is punctual, organized and the result was beyond expected. Our green roof is simply wonderful."',
     'testimonial.4.text': '"The landscaping on our façade turned out incredible! I get compliments from neighbors every day. Impeccable work from start to finish."',
-    'testimonial.5.text': '"We hired GIDI for our event garden and the result was spectacular. Guests were impressed by the beauty of the space."',
+    'testimonial.5.text': '"We hired GIDE for our event garden and the result was spectacular. Guests were impressed by the beauty of the space."',
     'testimonial.6.text': '"Our restaurant gained a beautiful outdoor area with plants and special lighting. Customer reviews have improved greatly since the renovation."',
-    'testimonial.7.text': '"The vertical herb garden GIDI installed in my apartment is a dream! I pick fresh herbs every day. Beautiful and functional project."',
+    'testimonial.7.text': '"The vertical herb garden GIDE installed in my apartment is a dream! I pick fresh herbs every day. Beautiful and functional project."',
     'testimonial.8.text': '"They transformed our rooftop into a garden paradise. Every detail was thoughtfully crafted. Highly professional team!"',
     'testimonial.9.text': '"The landscaping project for our company elevated the work environment to another level. Happier and more productive employees. Worth every penny!"',
 
@@ -406,7 +406,7 @@ const translations = {
     'footer.link_vertical': 'Vertical Gardens',
     'footer.link_green_roof': 'Green Roofs',
     'footer.link_consulting': 'Environmental Consulting',
-    'footer.copyright': '© 2026 GIDI Landscaping. All rights reserved.',
+    'footer.copyright': '© 2026 GIDE Landscaping. All rights reserved.',
     'footer.dev': 'Crafted with <svg class="icon" aria-hidden="true"><use href="icons/sprite.svg#icon-heart"></use></svg> to connect you with nature',
 
     'subpage.eyebrow': 'Services',
@@ -415,7 +415,7 @@ const translations = {
     'subpage.request_quote': 'Request a Quote',
     'subpage.back_services': '← Back to Services',
 
-    'page.garden.title': 'Garden Design — GIDI Landscaping',
+    'page.garden.title': 'Garden Design — GIDE Landscaping',
     'service.garden.what_is_text': 'Custom garden design service with space assessment, selection of species suited to climate and soil, and delivery of executive project with plans and specifications.',
     'service.garden.includes.1': 'Site survey and analysis',
     'service.garden.includes.2': '2D/3D executive project',
@@ -423,7 +423,7 @@ const translations = {
     'service.garden.includes.4': 'Planting and follow-up',
     'service.garden.includes.5': 'Residential, commercial and corporate',
 
-    'page.maintenance.title': 'Landscape Maintenance — GIDI Landscaping',
+    'page.maintenance.title': 'Landscape Maintenance — GIDE Landscaping',
     'service.maintenance.what_is_text': 'Regular visit program to keep the garden in perfect condition, with pruning, fertilization, pest control and replanting as needed.',
     'service.maintenance.includes.1': 'Custom maintenance plan',
     'service.maintenance.includes.2': 'Pruning and trimming',
@@ -431,7 +431,7 @@ const translations = {
     'service.maintenance.includes.4': 'Phytosanitary control',
     'service.maintenance.includes.5': 'Visit report',
 
-    'page.irrigation.title': 'Automated Irrigation — GIDI Landscaping',
+    'page.irrigation.title': 'Automated Irrigation — GIDE Landscaping',
     'service.irrigation.what_is_text': 'Sizing and installation of drip or sprinkler irrigation systems, controlled by timers or humidity sensors, reducing water waste.',
     'service.irrigation.includes.1': 'Hydraulic system design',
     'service.irrigation.includes.2': 'Installation of drippers and sprinklers',
@@ -439,7 +439,7 @@ const translations = {
     'service.irrigation.includes.4': 'Rain and humidity sensors',
     'service.irrigation.includes.5': 'Operation training',
 
-    'page.vertical.title': 'Vertical Gardens — GIDI Landscaping',
+    'page.vertical.title': 'Vertical Gardens — GIDE Landscaping',
     'service.vertical.what_is_text': 'Creation of living walls and panels for indoor or outdoor environments, with modular structure and integrated irrigation system.',
     'service.vertical.includes.1': 'Metal or PVC structure and support',
     'service.vertical.includes.2': 'Substrate and agricultural felt',
@@ -447,7 +447,7 @@ const translations = {
     'service.vertical.includes.4': 'Integrated irrigation',
     'service.vertical.includes.5': 'Periodic maintenance',
 
-    'page.green_roof.title': 'Green Roofs — GIDI Landscaping',
+    'page.green_roof.title': 'Green Roofs — GIDE Landscaping',
     'service.green_roof.what_is_text': 'Installation of extensive or intensive green coverage on slabs and roofs, with waterproofing, drainage and lightweight substrate layers.',
     'service.green_roof.includes.1': 'Structural analysis of the roof',
     'service.green_roof.includes.2': 'Waterproofing and drainage',
@@ -455,7 +455,7 @@ const translations = {
     'service.green_roof.includes.4': 'Thermal and acoustic reduction',
     'service.green_roof.includes.5': 'Environmental certification',
 
-    'page.consulting.title': 'Environmental Consulting — GIDI Landscaping',
+    'page.consulting.title': 'Environmental Consulting — GIDE Landscaping',
     'service.consulting.what_is_text': 'Technical consultancy for sustainable landscaping projects, environmental compensation, arborization reports and compliance with municipal legislation.',
     'service.consulting.includes.1': 'Environmental assessment of the space',
     'service.consulting.includes.2': 'Tree species inventory',
@@ -465,7 +465,7 @@ const translations = {
 
     'sustentabilidade.eyebrow': 'Green Commitment',
     'sustentabilidade.title': 'Landscaping with Purpose',
-    'sustentabilidade.subtitle': 'Every GIDI project is designed to coexist with the environment — using resources efficiently, respecting the local biome and leaving the surroundings more alive than we found them.',
+    'sustentabilidade.subtitle': 'Every GIDE project is designed to coexist with the environment — using resources efficiently, respecting the local biome and leaving the surroundings more alive than we found them.',
     'sustentabilidade.card1.title': 'Native Plants',
     'sustentabilidade.card1.desc': 'We prioritize local biome species in every project — lower water consumption, direct support for native wildlife and greater resilience to regional climate variations.',
     'sustentabilidade.card2.title': 'Green Roofs and Walls',
@@ -493,12 +493,12 @@ const translations = {
 
     'footer.address': '123 Example St<br>City/State',
     'footer.phone': '(XX) XXXXX-XXXX',
-    'footer.email': 'contact@gidipaisagismo.com.br',
+    'footer.email': 'contact@gidepaisagismo.com.br',
     'footer.hours': 'Mon-Fri: 8am-6pm',
   },
 
   'es-ES': {
-  'page.title': 'GIDI Paisajismo - Transforma Tus Espacios Verdes',
+  'page.title': 'GIDE Paisajismo - Transforma Tus Espacios Verdes',
   'skip_content': 'Ir al contenido principal',
   'scroll_top_aria': 'Volver arriba',
   'whatsapp_float_aria': 'Contáctanos por WhatsApp',
@@ -554,8 +554,8 @@ const translations = {
   'process.step5.text': 'Planes de mantenimiento para que tu jardín prospere durante años',
 
   'about.eyebrow': 'Nuestra Historia',
-  'about.title': 'Sobre GIDI Paisajismo',
-  'about.p1': 'Con 15 años de experiencia en paisajismo, GIDI transforma espacios ordinarios en entornos extraordinarios — jardines residenciales, cubiertas verdes e interiores vivos que elevan la calidad de vida.',
+  'about.title': 'Sobre GIDE Paisajismo',
+  'about.p1': 'Con 15 años de experiencia en paisajismo, GIDE transforma espacios ordinarios en entornos extraordinarios — jardines residenciales, cubiertas verdes e interiores vivos que elevan la calidad de vida.',
   'about.p2': 'Cada proyecto comienza con escucha activa: entendemos el espacio, el clima local y el estilo de vida del cliente antes de cualquier diseño. El resultado es un jardín que funciona, crece y deleita con el tiempo.',
 
   'blog.eyebrow': 'Inspírate',
@@ -582,13 +582,13 @@ const translations = {
   'testimonials.eyebrow': 'Clientes',
   'testimonials.title': 'Lo Que Dicen Nuestros Clientes',
   'testimonials.subtitle': 'Testimonios de quienes confían en nuestro trabajo',
-  'testimonial.1.text': '"¡GIDI transformó completamente nuestro jardín! El resultado superó todas las expectativas. Profesionales competentes y atentos."',
+  'testimonial.1.text': '"¡GIDE transformó completamente nuestro jardín! El resultado superó todas las expectativas. Profesionales competentes y atentos."',
   'testimonial.2.text': '"¡Excelente trabajo! El jardín vertical quedó increíble y dio vida a nuestra oficina. ¡Lo recomiendo mucho!"',
   'testimonial.3.text': '"¡Proyecto ejecutado a la perfección! El equipo es puntual, organizado y el resultado fue más allá de lo esperado. Nuestra cubierta verde es simplemente maravillosa."',
   'testimonial.4.text': '"¡El paisajismo de nuestra fachada quedó increíble! Recibo elogios de los vecinos cada día. Trabajo impecable de principio a fin."',
-  'testimonial.5.text': '"Contratamos a GIDI para el jardín de nuestro evento y el resultado fue espectacular. Los invitados quedaron impresionados por la belleza del espacio."',
+  'testimonial.5.text': '"Contratamos a GIDE para el jardín de nuestro evento y el resultado fue espectacular. Los invitados quedaron impresionados por la belleza del espacio."',
   'testimonial.6.text': '"Nuestro restaurante ganó una hermosa área exterior con plantas e iluminación especial. Las reseñas de los clientes mejoraron mucho desde la reforma."',
-  'testimonial.7.text': '"¡El jardín vertical de hierbas que GIDI instaló en mi apartamento es un sueño! Recojo hierbas frescas cada día. ¡Proyecto bonito y funcional!"',
+  'testimonial.7.text': '"¡El jardín vertical de hierbas que GIDE instaló en mi apartamento es un sueño! Recojo hierbas frescas cada día. ¡Proyecto bonito y funcional!"',
   'testimonial.8.text': '"Transformaron nuestra terraza en un jardín paradisíaco. Cada detalle fue pensado con mucho cuidado. ¡Equipo altamente profesional!"',
   'testimonial.9.text': '"El proyecto de paisajismo para nuestra empresa elevó el ambiente de trabajo a otro nivel. Empleados más felices y productivos. ¡Vale cada céntimo!"',
 
@@ -654,7 +654,7 @@ const translations = {
   'footer.link_vertical': 'Jardines Verticales',
   'footer.link_green_roof': 'Cubiertas Verdes',
   'footer.link_consulting': 'Consultoría Ambiental',
-  'footer.copyright': '© 2026 GIDI Paisajismo. Todos los derechos reservados.',
+  'footer.copyright': '© 2026 GIDE Paisajismo. Todos los derechos reservados.',
   'footer.dev': 'Creado con <svg class="icon" aria-hidden="true"><use href="icons/sprite.svg#icon-heart"></use></svg> para conectarte con la naturaleza',
 
   'subpage.eyebrow': 'Servicios',
@@ -663,7 +663,7 @@ const translations = {
   'subpage.request_quote': 'Solicitar Presupuesto',
   'subpage.back_services': '← Volver a Servicios',
 
-  'page.garden.title': 'Proyectos de Jardines — GIDI Paisajismo',
+  'page.garden.title': 'Proyectos de Jardines — GIDE Paisajismo',
   'service.garden.what_is_text': 'Servicio de creación de jardines a medida, con relevamiento del espacio, selección de especies adecuadas al clima y suelo, y entrega de proyecto ejecutivo con planos y especificaciones.',
   'service.garden.includes.1': 'Relevamiento y análisis del terreno',
   'service.garden.includes.2': 'Proyecto ejecutivo en 2D/3D',
@@ -671,7 +671,7 @@ const translations = {
   'service.garden.includes.4': 'Implantación y seguimiento',
   'service.garden.includes.5': 'Residencial, comercial y corporativo',
 
-  'page.maintenance.title': 'Mantenimiento Paisajístico — GIDI Paisajismo',
+  'page.maintenance.title': 'Mantenimiento Paisajístico — GIDE Paisajismo',
   'service.maintenance.what_is_text': 'Programa de visitas regulares para mantener el jardín en perfectas condiciones, con podas, fertilizaciones, control de plagas y replantaciones según sea necesario.',
   'service.maintenance.includes.1': 'Plan de mantenimiento personalizado',
   'service.maintenance.includes.2': 'Poda y recorte',
@@ -679,7 +679,7 @@ const translations = {
   'service.maintenance.includes.4': 'Control fitosanitario',
   'service.maintenance.includes.5': 'Informe de visita',
 
-  'page.irrigation.title': 'Irrigación Automatizada — GIDI Paisajismo',
+  'page.irrigation.title': 'Irrigación Automatizada — GIDE Paisajismo',
   'service.irrigation.what_is_text': 'Dimensionamiento e instalación de sistemas de riego por goteo o aspersión, controlados por temporizadores o sensores de humedad, reduciendo el desperdicio de agua.',
   'service.irrigation.includes.1': 'Proyecto hidráulico del sistema',
   'service.irrigation.includes.2': 'Instalación de goteros y aspersores',
@@ -687,7 +687,7 @@ const translations = {
   'service.irrigation.includes.4': 'Sensores de lluvia y humedad',
   'service.irrigation.includes.5': 'Capacitación operativa',
 
-  'page.vertical.title': 'Jardines Verticales — GIDI Paisajismo',
+  'page.vertical.title': 'Jardines Verticales — GIDE Paisajismo',
   'service.vertical.what_is_text': 'Creación de muros y paneles vivos para ambientes interiores o exteriores, con estructura modular y sistema de riego integrado.',
   'service.vertical.includes.1': 'Estructura y soporte metálico o PVC',
   'service.vertical.includes.2': 'Sustrato y fieltro agrícola',
@@ -695,7 +695,7 @@ const translations = {
   'service.vertical.includes.4': 'Riego integrado',
   'service.vertical.includes.5': 'Mantenimiento periódico',
 
-  'page.green_roof.title': 'Techos Verdes — GIDI Paisajismo',
+  'page.green_roof.title': 'Techos Verdes — GIDE Paisajismo',
   'service.green_roof.what_is_text': 'Implantación de cobertura vegetal extensiva o intensiva sobre losas y techos, con capas de impermeabilización, drenaje y sustrato ligero.',
   'service.green_roof.includes.1': 'Análisis estructural de la cubierta',
   'service.green_roof.includes.2': 'Impermeabilización y drenaje',
@@ -703,7 +703,7 @@ const translations = {
   'service.green_roof.includes.4': 'Reducción térmica y acústica',
   'service.green_roof.includes.5': 'Certificación ambiental',
 
-  'page.consulting.title': 'Consultoría Ambiental — GIDI Paisajismo',
+  'page.consulting.title': 'Consultoría Ambiental — GIDE Paisajismo',
   'service.consulting.what_is_text': 'Asesoría técnica para proyectos paisajísticos sostenibles, compensación ambiental, informes de arborización y adecuación a la legislación municipal.',
   'service.consulting.includes.1': 'Diagnóstico ambiental del espacio',
   'service.consulting.includes.2': 'Inventario de especies arbóreas',
@@ -713,7 +713,7 @@ const translations = {
 
   'sustentabilidade.eyebrow': 'Compromiso Verde',
   'sustentabilidade.title': 'Paisajismo con Propósito',
-  'sustentabilidade.subtitle': 'Cada proyecto de GIDI está pensado para coexistir con el medio ambiente — usando recursos con eficiencia, respetando el bioma local y dejando el entorno más vivo de lo que lo encontramos.',
+  'sustentabilidade.subtitle': 'Cada proyecto de GIDE está pensado para coexistir con el medio ambiente — usando recursos con eficiencia, respetando el bioma local y dejando el entorno más vivo de lo que lo encontramos.',
   'sustentabilidade.card1.title': 'Plantas Nativas',
   'sustentabilidade.card1.desc': 'Priorizamos especies del bioma local en todos los proyectos — menor consumo hídrico, apoyo directo a la fauna nativa y mayor resiliencia a las variaciones climáticas de la región.',
   'sustentabilidade.card2.title': 'Techos y Muros Verdes',
@@ -741,7 +741,7 @@ const translations = {
 
   'footer.address': 'Calle Ejemplo, 123<br>Ciudad/Estado',
   'footer.phone': '(XX) XXXXX-XXXX',
-  'footer.email': 'contacto@gidipaisagismo.com.br',
+  'footer.email': 'contacto@gidepaisagismo.com.br',
   'footer.hours': 'Lun-Vie: 08h-18h',
   }
 };
@@ -783,7 +783,7 @@ function applyLanguage(lang) {
   if (t[titleKey]) document.title = t[titleKey];
 
   // Save preference
-  try { localStorage.setItem('gidi-lang', lang); } catch(e) {}
+  try { localStorage.setItem('gide-lang', lang); } catch(e) {}
 
   // Update globe button code
   var currentCode = document.querySelector('.lang-current-code');
@@ -799,7 +799,7 @@ function applyLanguage(lang) {
 
 document.addEventListener('DOMContentLoaded', function() {
   var saved;
-  try { saved = localStorage.getItem('gidi-lang'); } catch(e) {}
+  try { saved = localStorage.getItem('gide-lang'); } catch(e) {}
   var validLangs = ['pt-BR', 'en-US', 'es-ES'];
   var lang = validLangs.indexOf(saved) !== -1 ? saved : 'pt-BR';
 

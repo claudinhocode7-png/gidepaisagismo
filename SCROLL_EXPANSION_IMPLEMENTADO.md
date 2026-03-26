@@ -48,15 +48,15 @@
 
 ### Arquivo Necessário:
 - **Nome:** `hero-bg.jpg`
-- **Local:** `C:\projeto\ProjetoGIDI\images\hero-bg.jpg`
+- **Local:** `C:\projeto\ProjetoGIDE\images\hero-bg.jpg`
 - **Tamanho Mínimo:** 1920 x 1080 pixels
 - **Formato:** JPG ou WebP
-- **Sugestão:** Imagem impactante de jardim/paisagem da GIDI
+- **Sugestão:** Imagem impactante de jardim/paisagem da GIDE
 
 ### Como Testar Antes da Imagem Final:
 1. Baixe uma imagem temporária de paisagem/jardim
 2. Renomeie para `hero-bg.jpg`
-3. Coloque em `C:\projeto\ProjetoGIDI\images\`
+3. Coloque em `C:\projeto\ProjetoGIDE\images\`
 4. Teste o scroll expansion
 
 ---
@@ -65,7 +65,7 @@
 
 ### Passo 1: Iniciar Servidor
 ```bash
-cd C:\projeto\ProjetoGIDI
+cd C:\projeto\ProjetoGIDE
 npm start
 ```
 
@@ -118,7 +118,7 @@ window.scrollExpansionHero = new ScrollExpansionHero({
     mediaType: 'image',              // 'image' ou 'video'
     mediaSrc: 'images/hero-bg.jpg',  // Caminho da imagem/vídeo
     bgImageSrc: 'images/hero-bg.jpg',// Caminho do background
-    title: 'GIDI Paisagismo',        // Título principal
+    title: 'GIDE Paisagismo',        // Título principal
     subtitle: 'Transformando Espaços Verdes', // Subtítulo
     scrollToExpand: 'Role para explorar',     // Texto do indicator
     textBlend: true                  // Mix blend mode ativado
@@ -184,7 +184,7 @@ textBlend: false  // Remove efeito mix-blend-mode
 ## 📁 Estrutura de Arquivos Final
 
 ```
-ProjetoGIDI/
+ProjetoGIDE/
 ├── index.html (modificado - hero simplificado)
 ├── css/
 │   ├── style.css (modificado - hero antigo comentado)

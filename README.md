@@ -1,6 +1,6 @@
-# 🌿 GIDI Paisagismo - Website Sofisticado
+# 🌿 GIDE Paisagismo - Website Sofisticado
 
-Site moderno e elegante para GIDI Paisagismo, combinando design minimalista com elementos naturais.
+Site moderno e elegante para GIDE Paisagismo, combinando design minimalista com elementos naturais.
 
 ## 📋 Visão Geral
 
@@ -45,7 +45,7 @@ Site profissional de paisagismo com foco em:
 ## 📁 Estrutura do Projeto
 
 ```
-ProjetoGIDI/
+ProjetoGIDE/
 ├── index.html              # Página principal
 ├── css/
 │   ├── style.css          # Estilos principais
@@ -58,7 +58,7 @@ ProjetoGIDI/
 │   ├── instagram.js      # Feed do Instagram
 │   └── form.js          # Validação de formulário
 ├── images/
-│   ├── logo.png         # Logo GIDI (FORNECIDO PELO CLIENTE)
+│   ├── logo.png         # Logo GIDE (FORNECIDO PELO CLIENTE)
 │   ├── hero-bg.jpg      # Background hero (FORNECIDO PELO CLIENTE)
 │   ├── about.jpg        # Imagem sobre (FORNECIDO PELO CLIENTE)
 │   ├── services/        # Ícones de serviços
@@ -304,10 +304,10 @@ Todos os elementos são totalmente responsivos com:
 
 ## 📄 Licença
 
-© 2024 GIDI Paisagismo. Todos os direitos reservados.
+© 2024 GIDE Paisagismo. Todos os direitos reservados.
 
 ---
 
 **Desenvolvido com** ❤️ **para conectar você com a natureza**
 
-🌿 GIDI Paisagismo - Transformando espaços verdes desde 2009
+🌿 GIDE Paisagismo - Transformando espaços verdes desde 2009

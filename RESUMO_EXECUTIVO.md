@@ -1,8 +1,8 @@
-# 🌿 GIDI Paisagismo - Resumo Executivo do Projeto
+# 🌿 GIDE Paisagismo - Resumo Executivo do Projeto
 
 ## 📊 Visão Geral
 
-Site profissional e sofisticado desenvolvido para **GIDI Paisagismo**, combinando design moderno com funcionalidades avançadas para atrair e converter clientes.
+Site profissional e sofisticado desenvolvido para **GIDE Paisagismo**, combinando design moderno com funcionalidades avançadas para atrair e converter clientes.
 
 ---
 
@@ -117,7 +117,7 @@ Site profissional e sofisticado desenvolvido para **GIDI Paisagismo**, combinand
 ## 📦 Estrutura de Arquivos
 
 ```
-ProjetoGIDI/
+ProjetoGIDE/
 ├── index.html (970 linhas)
 ├── css/
 │   ├── style.css (1200+ linhas)
@@ -418,6 +418,6 @@ Site profissional de alto nível, desenvolvido com as melhores práticas de:
 
 **Data de Conclusão**: 26 de Fevereiro de 2024
 **Versão**: 1.0.0
-**Desenvolvido com** ❤️ **para GIDI Paisagismo**
+**Desenvolvido com** ❤️ **para GIDE Paisagismo**
 
 🌿 **Transformando espaços verdes desde 2009**

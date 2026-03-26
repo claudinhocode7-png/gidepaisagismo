@@ -1,4 +1,4 @@
-# 🚀 Scripts NPM - GIDI Paisagismo
+# 🚀 Scripts NPM - GIDE Paisagismo
 
 ## 📋 Comandos Disponíveis
 
@@ -142,7 +142,7 @@ Adicione `-S`:
 
 ```bash
 # 1. Abrir terminal na pasta do projeto
-cd C:\projeto\ProjetoGIDI
+cd C:\projeto\ProjetoGIDE
 
 # 2. Iniciar servidor
 npm run dev
@@ -188,10 +188,10 @@ npm run deploy
 # 2. Acessar Netlify Drop
 # https://app.netlify.com/drop
 
-# 3. Arrastar pasta ProjetoGIDI completa
+# 3. Arrastar pasta ProjetoGIDE completa
 
 # 4. Copiar link gerado
-# Exemplo: gidi-paisagismo-abc123.netlify.app
+# Exemplo: gide-paisagismo-abc123.netlify.app
 ```
 
 ### **Outros Métodos:**
@@ -309,7 +309,7 @@ ngrok http 8080
 ### **TL;DR - Começar Agora:**
 
 ```bash
-cd C:\projeto\ProjetoGIDI
+cd C:\projeto\ProjetoGIDE
 npm run dev
 ```
 
@@ -329,4 +329,4 @@ Problemas? Consulte:
 **Última atualização:** 26 de Fevereiro de 2024
 **Versão:** 1.0.0
 
-🌿 **GIDI Paisagismo - Transformando espaços verdes desde 2009**
+🌿 **GIDE Paisagismo - Transformando espaços verdes desde 2009**

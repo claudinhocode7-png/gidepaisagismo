@@ -1,4 +1,4 @@
-# 🚀 Início Rápido - GIDI Paisagismo
+# 🚀 Início Rápido - GIDE Paisagismo
 
 ## ⚡ 5 Minutos para Ver o Site Funcionando
 
@@ -31,7 +31,7 @@ Atualize a página (F5) e você verá suas imagens!
 Abra `index.html` em um editor de texto (Notepad++, VS Code, etc.) e procure por:
 
 1. **Telefone**: Procure `(XX) XXXXX-XXXX` e substitua
-2. **Email**: Procure `contato@gidipaisagismo.com.br` e substitua
+2. **Email**: Procure `contato@gidepaisagismo.com.br` e substitua
 3. **Endereço**: Procure `Rua Exemplo, 123` e substitua
 
 Salve e atualize a página!
@@ -300,4 +300,4 @@ Você tem um site profissional que:
 
 **Boa sorte com seu novo site!** 🌿
 
-*GIDI Paisagismo - Transformando espaços verdes desde 2009*
+*GIDE Paisagismo - Transformando espaços verdes desde 2009*

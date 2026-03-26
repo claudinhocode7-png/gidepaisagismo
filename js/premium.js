@@ -1,5 +1,5 @@
 /* ==========================================
-   GIDI Paisagismo — premium.js
+   GIDE Paisagismo — premium.js
    FAQ accordion + stagger grids
    ========================================== */
 

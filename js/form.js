@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Form Validation & Handling
+   GIDE Paisagismo - Form Validation & Handling
    =================================== */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -397,7 +397,7 @@ addHoneypot();
 /* ===================================
    Export Form Functions
    =================================== */
-window.GIDIForm = {
+window.GIDEForm = {
     validateEmail,
     validatePhone,
     formatPhoneNumber,

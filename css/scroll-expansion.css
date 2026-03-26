@@ -1,5 +1,5 @@
 /* ===================================
-   GIDI Paisagismo - Scroll Expansion Hero CSS
+   GIDE Paisagismo - Scroll Expansion Hero CSS
    =================================== */
 
 /* Hero container com scroll expansion */
@@ -88,12 +88,16 @@
 
 .hero-title-first,
 .hero-title-rest {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+    font-size: clamp(2.8rem, 7vw, 6.5rem);
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
     color: #e0f2fe;
     transition: transform 0.05s linear;
     margin: 0;
+    line-height: 1;
 }
 
 .hero-subtitle {
@@ -160,7 +164,8 @@
 
     .hero-title-first,
     .hero-title-rest {
-        font-size: 2rem;
+        font-size: clamp(1.8rem, 8vw, 2.8rem);
+        letter-spacing: 0.15em;
     }
 
     .hero-subtitle {
